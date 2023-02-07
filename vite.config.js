@@ -11,7 +11,7 @@ export default defineConfig({
       filename: 'remoteEntry.js',
       remotes: {
         'remote-simple': {
-          external: 'http://localhost:5001/assets/remoteEntry.js',
+          external: 'http://localhost:5002/assets/remoteEntry.js',
           from: "vite",
           format: 'esm'
         }
