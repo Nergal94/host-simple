@@ -275,6 +275,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://artifactory.fpprod.corp:443/artifactory/api/npm/virtual-node/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha1-btpL00SjyUrqN21MwxvHcxEDngk=
 
+typescript@^4.9.3:
+  version "4.9.5"
+  resolved "https://artifactory.fpprod.corp:443/artifactory/api/npm/virtual-node/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
+  integrity sha1-CVl5+bzA0J2jJNWNA86Pg3TL5lo=
+
 vite@^4.0.3:
   version "4.1.1"
   resolved "https://artifactory.fpprod.corp:443/artifactory/api/npm/virtual-node/vite/-/vite-4.1.1.tgz#3b18b81a4e85ce3df5cbdbf4c687d93ebf402e6b"
@@ -286,6 +291,18 @@ vite@^4.0.3:
     rollup "^3.10.0"
   optionalDependencies:
     fsevents "~2.3.2"
+
+vue-class-component@^7.0.2, vue-class-component@^7.1.0:
+  version "7.2.6"
+  resolved "https://artifactory.fpprod.corp:443/artifactory/api/npm/virtual-node/vue-class-component/-/vue-class-component-7.2.6.tgz#8471e037b8e4762f5a464686e19e5afc708502e4"
+  integrity sha1-hHHgN7jkdi9aRkaG4Z5a/HCFAuQ=
+
+vue-property-decorator@^8.1.0:
+  version "8.5.1"
+  resolved "https://artifactory.fpprod.corp:443/artifactory/api/npm/virtual-node/vue-property-decorator/-/vue-property-decorator-8.5.1.tgz#571a91cf8d2b507f537d79bf8275af3184572fff"
+  integrity sha1-VxqRz40rUH9TfXm/gnWvMYRXL/8=
+  dependencies:
+    vue-class-component "^7.1.0"
 
 vue@^2.7.14:
   version "2.7.14"
